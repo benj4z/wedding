@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Main.module.css";
 import { ReactComponent as Logo } from "../../assets/names.svg";
-import mainPhoto from "../../assets/main-photo.svg";
+import mainPhoto from "../../assets/main-photo.png";
 import { motion } from "framer-motion";
 import {
   miniTitleAnimation,
@@ -24,7 +24,6 @@ const Main = () => {
           <span>WEDDING DAY</span>
           <span>19.08.2022</span>
         </motion.div>
-        {/*<img src={names} alt="1" />*/}
         <div className={styles.logoWrapper}>
           <Logo />
           <motion.div

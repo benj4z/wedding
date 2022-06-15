@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  padding: 100px 160px;
+  padding-top: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 115px;
+  line-height: 120px;
+  align-self: flex-end;
+  transform: translateY(40%);
+}
+
+.photo {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 96px;
+}
+
+.linkPlacer {
+  margin-bottom: 68px;
+  margin-left: -40px;
+}
+
+.text {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 38px;
+}

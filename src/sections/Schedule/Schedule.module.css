@@ -1,0 +1,52 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+
+.scheduleContainer {
+  margin-top: 119px;
+}
+
+.item {
+  padding-bottom: 27px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  display: flex;
+  margin-bottom: 24px;
+}
+.time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  margin-right: 100px;
+  min-width: 85px;
+}
+
+.theme {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 6px;
+}
+
+.description {
+  margin: 0;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.backgroundWrapper {
+  position: absolute;
+  z-index: 0;
+  right: -150px;
+  top: -80px;
+}
+

@@ -1,0 +1,7 @@
+.font {
+  font-weight: 600;
+  line-height: 400px;
+  color: rgba(7, 105, 34, 0.2);
+  -webkit-text-stroke: 1px rgba(7, 105, 34, 0.2);
+  -webkit-text-fill-color: transparent;
+}

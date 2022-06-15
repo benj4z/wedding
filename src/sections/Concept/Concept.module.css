@@ -1,0 +1,103 @@
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  padding: 100px 160px;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.textWrapper {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.textWrapper:nth-child(2) {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 61%;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.leftBackground {
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+
+.rightBackground {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+
+.cubes {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  bottom: 0;
+  right: 160px;
+}
+
+.cube {
+  width: 110px;
+  height: 110px;
+  border-radius: 25px;
+  margin-bottom: 26px;
+}
+
+.cubesRow {
+  margin-right: 30px;
+}
+
+.cubes .cubesRow:first-child {
+  margin-top: 136px;
+}
+
+.cubes .cubesRow:first-child .cube:nth-child(1) {
+  background: rgba(241, 241, 241, 1);
+}
+
+.cubes .cubesRow:first-child .cube:nth-child(2) {
+  background: rgba(225, 235, 208, 1);
+}
+
+.cubes .cubesRow:first-child .cube:nth-child(3) {
+  background: rgba(169, 195, 170, 1);
+}
+
+.cubesRow:last-child {
+  margin-right: 0;
+}
+
+.cubesRow:last-child .cube:nth-child(1) {
+  background: rgba(205, 218, 174, 1);
+}
+
+.cubesRow:last-child  .cube:nth-child(2) {
+  background: rgba(134, 168, 133, 1);
+}
+
+.cubesRow:last-child  .cube:nth-child(3) {
+  background: rgba(95, 122, 103, 1);
+}

@@ -1,0 +1,159 @@
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 900px;
+
+}
+
+.title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.formTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+
+.input {
+  width: 367px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 36px;
+  border: none;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  position: relative;
+  transition: all .35s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #5F7A67;
+}
+
+.radioGroup {
+  position: relative;
+}
+
+.radioInput {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.radio {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 12px 56px;
+  border: 1px solid;
+  display: block;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.radioGroup input:checked ~ .radio {
+  border-color: #CDDAAE;
+  background: #CDDAAE;
+}
+
+.checkboxRow {
+  position: relative;
+}
+
+.checkboxRow input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkboxRow label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.checkboxRow label:after {
+  content: "";
+  position: absolute;
+  left: -45px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.checkboxRow input:checked ~ label:after {
+  content: "\2713";
+  color: #CDDAAE;
+}
+
+.formRow textarea {
+  padding: 10px 14px;
+  width: 100%;
+  min-height: 82px;
+  border: 1px solid;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  padding: 6px;
+  width: 252px;
+  height: 30px;
+  background: black;
+  color: white;
+}
