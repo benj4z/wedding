@@ -13,17 +13,17 @@ const Place = () => {
           место <br/> торжества
         </div>
         <div className={styles.content}>
-            <div className={styles.photo}>
-              <img src={place}/>
-              <div className={styles.linkPlacer}>
-                <Link url={URL}>смотреть на карте</Link>
-              </div>
+          <div className={styles.photo}>
+            <img src={place}/>
+            <div className={styles.linkPlacer}>
+              <Link url={URL}>смотреть на карте</Link>
             </div>
-            <p className={styles.text}>
-              Торжественная регистрация нашего брака пройдет
-              19 августа в Доме семейных торжеств на проспекте Мира, 24 г.
-              чето наверное надо еще дописать, пока не знаю что
-            </p>
+          </div>
+          <p className={styles.text}>
+            Торжественная регистрация нашего брака пройдет
+            19 августа в Доме семейных торжеств на проспекте Мира, 24 г.
+            чето наверное надо еще дописать, пока не знаю что
+          </p>
         </div>
       </div>
     </div>

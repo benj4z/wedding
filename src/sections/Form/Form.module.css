@@ -74,6 +74,12 @@
 
 .radioGroup {
   position: relative;
+  margin-bottom: 24px;
+}
+
+.radioGroup:nth-child(3),
+.radioGroup:nth-child(4) {
+  margin-bottom: 0;
 }
 
 .radioInput {
@@ -93,7 +99,6 @@
   padding: 12px 56px;
   border: 1px solid;
   display: block;
-  margin-bottom: 24px;
   cursor: pointer;
 }
 
@@ -156,4 +161,64 @@
   height: 30px;
   background: black;
   color: white;
+}
+
+@media (max-width: 1367px) {
+  .wrapper {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 415px) {
+  .wrapper {
+    padding: 20px 20px 40px 20px;
+    height: auto;
+    width: 100%;
+  }
+  .title {
+    line-height: 76px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .formRow {
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  .form {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input:last-child {
+    margin-bottom: 0;
+  }
+
+  .radioGroup:nth-child(3),
+  .radioGroup:nth-child(4) {
+    margin-bottom: 24px;
+  }
+
+  .radioGroup {
+    width: 100%;
+  }
+
+  .radio {
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .checkboxRow {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
 }

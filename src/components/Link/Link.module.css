@@ -33,3 +33,10 @@
 .link:hover {
   border-color: black;
 }
+
+@media (max-width: 1181px) {
+  .link {
+    padding: 23px 20px;
+    font-size: 24px;
+  }
+}

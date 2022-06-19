@@ -50,3 +50,50 @@
   top: -80px;
 }
 
+@media (max-width: 1367px) {
+  .scheduleContainer {
+    margin-top: 0;
+  }
+  .theme {
+    font-size: 32px;
+  }
+
+  .backgroundWrapper {
+    right: 0;
+  }
+}
+
+@media (max-width: 415px) {
+  .container {
+    height: auto;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .scheduleContainer {
+    width: 100%;
+  }
+
+  .descriptionWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .time {
+    margin-right: 20px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .theme {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}

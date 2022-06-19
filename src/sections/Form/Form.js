@@ -37,7 +37,7 @@ const Form = () => {
               className={styles.radioInput}
             />
             <label htmlFor="visit2" className={styles.radio}>
-              приду на регистрацию
+              приду на оба мероприятия
             </label>
           </div>
           <div className={styles.radioGroup}>
@@ -49,7 +49,7 @@ const Form = () => {
               className={styles.radioInput}
             />
             <label htmlFor="visit3" className={styles.radio}>
-              приду на регистрацию
+              приду на праздничный ужин
             </label>
           </div>
           <div className={styles.radioGroup}>
@@ -61,7 +61,7 @@ const Form = () => {
               className={styles.radioInput}
             />
             <label htmlFor="visit4" className={styles.radio}>
-              приду на регистрацию
+              не смогу прийти
             </label>
           </div>
         </div>

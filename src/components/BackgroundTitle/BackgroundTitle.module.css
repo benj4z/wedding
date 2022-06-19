@@ -5,3 +5,15 @@
   -webkit-text-stroke: 1px rgba(7, 105, 34, 0.2);
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1181px) {
+  .font {
+    font-size: 180px!important;
+  }
+}
+
+@media (max-width: 415px) {
+  .font {
+    display: none;
+  }
+}

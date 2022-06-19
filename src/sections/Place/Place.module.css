@@ -1,7 +1,6 @@
 .wrapper {
   position: relative;
   width: 1440px;
-  height: 100vh;
   padding: 100px 160px;
   padding-top: 60px;
   margin: 0 auto;
@@ -42,4 +41,62 @@
   font-weight: 100;
   font-size: 32px;
   line-height: 38px;
+}
+
+@media (max-width: 1367px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1181px) {
+  .title {
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 415px) {
+  .wrapper {
+    padding: 10px 20px;
+    justify-content: unset;
+    margin-bottom: 60px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 60px;
+    line-height: 64px;
+    align-self: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .photo {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .photo img {
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linkPlacer {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .text {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }

@@ -1,7 +1,6 @@
 .wrapper {
   position: relative;
   width: 1440px;
-  height: 100vh;
   padding: 100px 160px;
   display: flex;
   margin: 0 auto;
@@ -28,6 +27,7 @@
 .textWrapper:nth-child(2) {
   text-align: left;
   align-items: flex-start;
+  margin-top: 140px;
 }
 
 .text {
@@ -100,4 +100,82 @@
 
 .cubesRow:last-child  .cube:nth-child(3) {
   background: rgba(95, 122, 103, 1);
+}
+
+@media (max-width: 1367px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .cube {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 18px;
+  }
+
+  .cubesRow {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .wrapper {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .textWrapper {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .textWrapper:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .title {
+    margin-top: 0;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .text {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .cubes {
+    position: static;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cubes .cubesRow:first-child {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .cubes .cubesRow {
+    display: flex;
+  }
+
+  .cube {
+    margin-right: 20px;
+  }
+
+  .cubes .cubesRow:first-child .cube:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .cubesRow:last-child  .cube:nth-child(3) {
+    margin-right: 0;
+  }
 }
