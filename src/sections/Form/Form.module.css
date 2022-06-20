@@ -94,12 +94,14 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 24px;
-  padding: 12px 56px;
+  padding: 14px 22px;
   border: 1px solid;
   display: block;
   cursor: pointer;
+  width: 367px;
+  text-align: center;
 }
 
 .radioGroup input:checked ~ .radio {
@@ -161,6 +163,31 @@
   height: 30px;
   background: black;
   color: white;
+  cursor: pointer;
+}
+
+.successTitle {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.successWrap {
+  text-align: center;
+}
+
+.successText {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.successText a {
+  color: black;
+  font-weight: 800;
 }
 
 @media (max-width: 1367px) {

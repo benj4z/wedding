@@ -1,33 +1,61 @@
 import React from "react";
 import styles from "./Concept.module.css";
+import { motion } from "framer-motion";
 import { Title } from "../../components/Title/Title";
 import { BackgroundTitle } from "../../components/BackgroundTitle/BackgroundTitle";
+
+const cubeAnimation = {
+  variants: {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  },
+};
 
 const Cubes = () => {
   return (
     <div className={styles.cubes}>
       <div className={styles.cubesRow}>
-        <div className={styles.cube} />
-        <div className={styles.cube} />
-        <div className={styles.cube} />
+        {[0, 1, 2].map((i) => (
+          <motion.div
+            className={styles.cube}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ ease: 'backIn', duration: 1, delay: 0.25 * i }}
+            variants={cubeAnimation.variants}
+            key={i}
+          />
+        ))}
       </div>
       <div className={styles.cubesRow}>
-        <div className={styles.cube} />
-        <div className={styles.cube} />
-        <div className={styles.cube} />
+        {[0, 1, 2].map((i) => (
+          <motion.div
+            className={styles.cube}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ ease: "backIn", duration: 1, delay: 0.1 * i + 1 }}
+            variants={cubeAnimation.variants}
+            key={i}
+          />
+        ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Concept = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.leftBackground}>
-        <BackgroundTitle fz={200} lh={267}>CONCEPT</BackgroundTitle>
+        <BackgroundTitle fz={200} lh={267} left>
+          CONCEPT
+        </BackgroundTitle>
       </div>
       <div className={styles.rightBackground}>
-        <BackgroundTitle fz={200} lh={176}>DRESS CODE</BackgroundTitle>
+        <BackgroundTitle fz={200} lh={176}>
+          DRESS CODE
+        </BackgroundTitle>
       </div>
       <div className={styles.content}>
         <div className={styles.textWrapper}>
