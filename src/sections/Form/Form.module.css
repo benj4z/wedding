@@ -1,7 +1,7 @@
 .wrapper {
   position: relative;
   width: 1440px;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -158,12 +158,20 @@
 }
 
 .submit {
-  padding: 6px;
-  width: 252px;
-  height: 30px;
+  padding: 10px 30px;
   background: black;
   color: white;
   cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid;
+  transition: all .35s;
+}
+
+.submit:hover {
+  color: black;
+  background: transparent;
 }
 
 .successTitle {
