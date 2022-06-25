@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.47be5d11.css",
+    "main.css": "/wedding/static/css/main.76796c29.css",
     "main.js": "/wedding/static/js/main.ecdad34d.js",
     "static/media/main-photo.png": "/wedding/static/media/main-photo.dbb7640c62857b6eea41.png",
     "static/media/restorant.png": "/wedding/static/media/restorant.f7a20ffa6cfd985182c8.png",
     "static/media/place.png": "/wedding/static/media/place.3725996b1ade5e681e7e.png",
     "static/media/names.svg": "/wedding/static/media/names.97c35dd1e6427a0038e32814873f5cda.svg",
     "index.html": "/wedding/index.html",
-    "main.47be5d11.css.map": "/wedding/static/css/main.47be5d11.css.map",
+    "main.76796c29.css.map": "/wedding/static/css/main.76796c29.css.map",
     "main.ecdad34d.js.map": "/wedding/static/js/main.ecdad34d.js.map"
   },
   "entrypoints": [
-    "static/css/main.47be5d11.css",
+    "static/css/main.76796c29.css",
     "static/js/main.ecdad34d.js"
   ]
 }
