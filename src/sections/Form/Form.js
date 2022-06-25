@@ -58,7 +58,7 @@ const Form = () => {
           <h2 className={styles.successTitle}>Спасибо за регистрацию!</h2>
           <p className={styles.successText}>
             Присоединяйтесь к{" "}
-            <a href="https://t.me/+SDDuysdFPxExOGUy" target="_blank">
+            <a href="https://t.me/+MDa-S8AjKXA5ODIy" target="_blank">
               группе в телеграм
             </a>{" "}
             чтобы не пропустить все анонсы!

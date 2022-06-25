@@ -21,7 +21,7 @@ export const linkAnimation = {
   transition: { ease: "easeOut", duration: 0.45, delay: 0.25 },
 };
 const URL =
-  "https://2gis.ru/krasnoyarsk/firm/985691699739212?m=92.886371%2C56.012807%2F18.22";
+  "https://2gis.ru/krasnoyarsk/firm/70000001006350367?m=92.861838%2C56.011706%2F18.22";
 
 const Place = () => {
   return (
@@ -67,8 +67,7 @@ const Place = () => {
             variants={textAnimation.variants}
           >
             Праздничный ужин пройдет в банкетном зале “Пассаж” на проспекте
-            Мира, 96. Наверное, надо еще чето дописать, пока не знаю что,
-            подумаю еще
+            Мира, 96. На велкоме вас будут ждать легкий фуршет и фотозона
           </motion.p>
         </div>
       </div>
